@@ -1,0 +1,45 @@
+# 自己的网站直连
+DOMAIN-SUFFIX,180311.xyz
+# DOMAIN-SUFFIX,840311.xyz
+
+# 付款的网站
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,支付宝.com # 添加支付宝中文域名以防万一
+DOMAIN-SUFFIX,tenpay.com # 微信支付相关
+DOMAIN-SUFFIX,weixin.qq.com # 微信主域名
+DOMAIN-SUFFIX,wechat.com # 微信国际域名
+DOMAIN-SUFFIX,mch.weixin.qq.com # 微信支付商户平台
+DOMAIN-SUFFIX,pay.weixin.qq.com # 微信支付平台
+DOMAIN-SUFFIX,wx.tenpay.com # 微信支付相关
+DOMAIN-SUFFIX,qpay.qq.com # QQ支付
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,yangkeduo.com # 拼多多另一个域名
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xiaohongshu.cn
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX, Dianping.com # 美团/点评相关
+DOMAIN-SUFFIX,unionpay.com # 银联
+DOMAIN-SUFFIX,95516.com # 云闪付
+DOMAIN-SUFFIX,chinaums.com # 银联商务
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,alicdn.com # 阿里系CDN
+DOMAIN-SUFFIX,alitrip.com # 阿里旅行/飞猪
+DOMAIN-SUFFIX,58.com # 58同城
+DOMAIN-SUFFIX,ganji.com # 赶集网 (58同城旗下)
+DOMAIN-SUFFIX,bankofchengdu.com # 成都银行
+DOMAIN-SUFFIX,tfbank.com # 天府银行
+DOMAIN-SUFFIX,kuaishou.com
+DOMAIN-SUFFIX,kuaishou.cn
+DOMAIN-SUFFIX,ksapis.com # 快手API
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyin.cn
+DOMAIN-SUFFIX,ixigua.com # 西瓜视频 (抖音系)
+
+#四川联通
+IP-CIDR,101.204.0.0/16,no-resolve
+IP-CIDR,119.6.0.0/16,no-resolve
+IP-CIDR,119.7.0.0/16,no-resolve
+
