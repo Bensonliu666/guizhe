@@ -5,8 +5,6 @@
 # 新增喜马拉雅广告规则
 DOMAIN-SUFFIX,adse.ximalaya.com
 
-
-
 # 新增w网飞猫广告规则
 # DOMAIN-SUFFIX,vres.dsty5.com
 # DOMAIN-SUFFIX,vcache.cyesdg.com
@@ -16,7 +14,8 @@ DOMAIN-SUFFIX,adse.ximalaya.com
 # DOMAIN-SUFFIX,sblogic.kvod15.com
 # DOMAIN-SUFFIX,sblogic.kvod14.com
 
-
+# 个人添加
+DOMAIN-SUFFIX,mmstat.com
 
 
 # 广告联盟
@@ -216,6 +215,7 @@ DOMAIN-SUFFIX,xpe.cxaerp.com
 DOMAIN-SUFFIX,xtzxmy.com
 DOMAIN-SUFFIX,xyrkl.com
 DOMAIN-SUFFIX,zhuanfakong.com
+
 
 
 
