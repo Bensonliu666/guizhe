@@ -1,7 +1,7 @@
 # 自己的网站直连
 # DOMAIN-SUFFIX,180311.xyz
 # DOMAIN-SUFFIX,840311.xyz
-
+DOMAIN-SUFFIX,x3322.net
 # 付款的网站
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tmall.com
@@ -42,4 +42,5 @@ DOMAIN-SUFFIX,ixigua.com # 西瓜视频 (抖音系)
 IP-CIDR,101.204.0.0/16,no-resolve
 IP-CIDR,119.6.0.0/16,no-resolve
 IP-CIDR,119.7.0.0/16,no-resolve
+
 
