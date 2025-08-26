@@ -1,6 +1,7 @@
 
-# 部分app广告地址--https://github.180311.xyz/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/BanProgramAD.yaml
-
+个人编辑广告
+DOMAIN-SUFFIX,adsmind.gdtimg.com
+DOMAIN-SUFFIX,gdtimg.com
 
 # 新增喜马拉雅广告规则
 DOMAIN-SUFFIX,adse.ximalaya.com
@@ -152,9 +153,9 @@ DOMAIN-SUFFIX,cdn-new-ad.wtzw.com
 DOMAIN-SUFFIX,a-remad.qm989.com
 DOMAIN-SUFFIX,mobads.baidu.com
 DOMAIN-SUFFIX,gdt.qq.com
-DOMAIN-SUFFIX,qzs.gdtimg.com
+DOMAIN-SUFFIX,qzs.
 DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com
-DOMAIN-SUFFIX,pgdt.ugdtimg.com
+DOMAIN-SUFFIX,pgdt.u
 
 
 # 淘宝
@@ -215,6 +216,7 @@ DOMAIN-SUFFIX,xpe.cxaerp.com
 DOMAIN-SUFFIX,xtzxmy.com
 DOMAIN-SUFFIX,xyrkl.com
 DOMAIN-SUFFIX,zhuanfakong.com
+
 
 
 
