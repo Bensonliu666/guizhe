@@ -1,3 +1,6 @@
 
 # 把要代理的网站填写进去
 DOMAIN-SUFFIX,tampermonkey.net
+DOMAIN-SUFFIX,jtmate.com
+DOMAIN-SUFFIX,staticj.top
+DOMAIN-SUFFIX,sentry.io
