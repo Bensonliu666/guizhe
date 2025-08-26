@@ -2,9 +2,14 @@
 个人编辑广告
 DOMAIN-SUFFIX,adsmind.gdtimg.com
 DOMAIN-SUFFIX,gdtimg.com
+DOMAIN-SUFFIX,mmstat.com
 
 # 新增喜马拉雅广告规则
 DOMAIN-SUFFIX,adse.ximalaya.com
+DOMAIN-SUFFIX,adbehavior.ximalaya.com
+DOMAIN-SUFFIX,adwbs.ximalaya.com
+DOMAIN-SUFFIX,ad.test.ximalaya.com
+DOMAIN-SUFFIX,adse.test.ximalaya.com
 
 # 新增w网飞猫广告规则
 # DOMAIN-SUFFIX,vres.dsty5.com
@@ -14,10 +19,6 @@ DOMAIN-SUFFIX,adse.ximalaya.com
 # DOMAIN-SUFFIX,vres.dsty6.com
 # DOMAIN-SUFFIX,sblogic.kvod15.com
 # DOMAIN-SUFFIX,sblogic.kvod14.com
-
-# 个人添加
-DOMAIN-SUFFIX,mmstat.com
-
 
 # 广告联盟
 DOMAIN-SUFFIX,miaozhen.com
@@ -216,6 +217,7 @@ DOMAIN-SUFFIX,xpe.cxaerp.com
 DOMAIN-SUFFIX,xtzxmy.com
 DOMAIN-SUFFIX,xyrkl.com
 DOMAIN-SUFFIX,zhuanfakong.com
+
 
 
 
