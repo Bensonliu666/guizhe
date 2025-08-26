@@ -1,6 +1,3 @@
 
 # 把要代理的网站填写进去
-# DOMAIN-SUFFIX,adbehavior.ximalaya.com
-# DOMAIN-SUFFIX,adwbs.ximalaya.com
-# DOMAIN-SUFFIX,ad.test.ximalaya.com
-# DOMAIN-SUFFIX,adse.test.ximalaya.com
+DOMAIN-SUFFIX,tampermonkey.net
