@@ -4,6 +4,10 @@ DOMAIN-SUFFIX,180311.xyz
 DOMAIN-SUFFIX,lbx.x3322.net
 DOMAIN-SUFFIX,benson.x3322.net
 DOMAIN-SUFFIX,gh-proxy.com
+DOMAIN-SUFFIX,znzmostatic.com
+DOMAIN-SUFFIX,znzgo.com
+DOMAIN-SUFFIX,growingio.com
+DOMAIN-SUFFIX,giocdn.com
 # 付款的网站
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tmall.com
@@ -632,6 +636,7 @@ DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zhipin.com
 DOMAIN-SUFFIX,zhongsou.com
 DOMAIN-SUFFIX,zhuihd.com
+
 
 
 
