@@ -18,10 +18,31 @@ DOMAIN-KEYWORD,pangolin
 DOMAIN-SUFFIX,pangle.io
 DOMAIN-SUFFIX,pgetp.com
 
+# 字节跳动广告相关 (穿山甲)
+DOMAIN-KEYWORD, ad-sign
+DOMAIN-KEYWORD, ads.pangle
+DOMAIN-SUFFIX, ad.advertising.com
+DOMAIN-SUFFIX, zijieapi.com
+DOMAIN-SUFFIX, volces.com
+
 # 番茄畅听个人抓取日志
 DOMAIN-SUFFIX,novelfm.com  # 注意：由于正文在 novelfmvod.com，拦截 novelfm.com 通常是安全的
 DOMAIN-SUFFIX,byteimg.com  # 广告签名和素材
 DOMAIN-SUFFIX,ecombdimg.com  # 拦截电商和推广内容
+DOMAIN-SUFFIX, yangliq.com
+DOMAIN-SUFFIX, pglstatp.com
+DOMAIN-SUFFIX, pglite.com
+DOMAIN-SUFFIX, e.qq.com
+DOMAIN-SUFFIX, gdt.qq.com
+DOMAIN-SUFFIX, mi.gdt.qq.com
+
+
+
+
+
+
+
+
 
 # 静态资源与图片 (Static Assets)部分存储广告素材的 CDN 地址。
 DOMAIN-SUFFIX,byteimg.com  # （部分广告图片）
@@ -220,6 +241,7 @@ DOMAIN-SUFFIX,xpe.cxaerp.com
 DOMAIN-SUFFIX,xtzxmy.com
 DOMAIN-SUFFIX,xyrkl.com
 DOMAIN-SUFFIX,zhuanfakong.com
+
 
 
 
