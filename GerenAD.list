@@ -18,6 +18,11 @@ DOMAIN-KEYWORD,pangolin
 DOMAIN-SUFFIX,pangle.io
 DOMAIN-SUFFIX,pgetp.com
 
+# 番茄畅听个人抓取日志
+DOMAIN-SUFFIX,novelfm.com  # 注意：由于正文在 novelfmvod.com，拦截 novelfm.com 通常是安全的
+DOMAIN-SUFFIX,byteimg.com  # 广告签名和素材
+DOMAIN-SUFFIX,ecombdimg.com  # 拦截电商和推广内容
+
 # 静态资源与图片 (Static Assets)部分存储广告素材的 CDN 地址。
 DOMAIN-SUFFIX,byteimg.com  # （部分广告图片）
 DOMAIN-SUFFIX,toutiaocloud.com
@@ -215,5 +220,6 @@ DOMAIN-SUFFIX,xpe.cxaerp.com
 DOMAIN-SUFFIX,xtzxmy.com
 DOMAIN-SUFFIX,xyrkl.com
 DOMAIN-SUFFIX,zhuanfakong.com
+
 
 
