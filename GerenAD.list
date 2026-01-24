@@ -11,14 +11,29 @@ DOMAIN-SUFFIX,adwbs.ximalaya.com
 DOMAIN-SUFFIX,ad.test.ximalaya.com
 DOMAIN-SUFFIX,adse.test.ximalaya.com
 
-# 新增w网飞猫广告规则
-# DOMAIN-SUFFIX,vres.dsty5.com
-# DOMAIN-SUFFIX,vcache.cyesdg.com
-# DOMAIN-SUFFIX,vlogic.cyesdg.com
-# DOMAIN-SUFFIX,vres.kvod7.com
-# DOMAIN-SUFFIX,vres.dsty6.com
-# DOMAIN-SUFFIX,sblogic.kvod15.com
-# DOMAIN-SUFFIX,sblogic.kvod14.com
+# 新增字节跳动的广告规则含旗下所有APP（番茄畅听，番茄小说，红果短剧，即梦，扣子，豆包，飞书，，剪映，抖音，今日头条，西瓜视频，懂车帝，皮皮虾，醒图）
+# 穿山甲广告 SDK这是番茄畅听最主要的广告来源（开屏广告、听书中间的插播广告）。作用： 彻底切断穿山甲广告插件与服务器的联系。
+DOMAIN-KEYWORD,pangle
+DOMAIN-KEYWORD,pangolin
+DOMAIN-SUFFIX,pangle.io
+DOMAIN-SUFFIX,pgetp.com
+
+# 静态资源与图片 (Static Assets)部分存储广告素材的 CDN 地址。
+DOMAIN-SUFFIX,byteimg.com  # （部分广告图片）
+DOMAIN-SUFFIX,toutiaocloud.com
+
+# 字节跳动几乎所有 App（抖音、头条、番茄）共用的广告分发域名。作用： 拦截静态广告图片、视频素材的加载。
+DOMAIN-SUFFIX,ads.pstatp.com
+DOMAIN-SUFFIX,ad.toutiao.com
+DOMAIN-SUFFIX,ad.zijieapi.com
+DOMAIN-SUFFIX,dsp-x86.byteoversea.com
+
+# 字节跳动，会记录你的行为并上传，用于精准投放广告。
+DOMAIN-SUFFIX,extlog.snssdk.com
+DOMAIN-SUFFIX,log.snssdk.com
+DOMAIN-SUFFIX,analytics.snssdk.com
+DOMAIN-SUFFIX,mon.snssdk.com
+
 
 # 广告联盟
 DOMAIN-SUFFIX,miaozhen.com
@@ -200,3 +215,4 @@ DOMAIN-SUFFIX,xpe.cxaerp.com
 DOMAIN-SUFFIX,xtzxmy.com
 DOMAIN-SUFFIX,xyrkl.com
 DOMAIN-SUFFIX,zhuanfakong.com
+
