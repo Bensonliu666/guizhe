@@ -29,7 +29,7 @@ DOMAIN-SUFFIX, zijieapi.com
 DOMAIN-SUFFIX, volces.com
 
 # 番茄畅听个人抓取日志
-DOMAIN-SUFFIX,novelfm.com  # 注意：由于正文在 novelfmvod.com，拦截 novelfm.com 通常是安全的
+# DOMAIN-SUFFIX,novelfm.com  # 注意：由于正文在 novelfmvod.com，拦截 novelfm.com 通常是安全的
 DOMAIN-SUFFIX,byteimg.com  # 广告签名和素材
 DOMAIN-SUFFIX,ecombdimg.com  # 拦截电商和推广内容
 DOMAIN-SUFFIX, yangliq.com
@@ -39,8 +39,8 @@ DOMAIN-SUFFIX, e.qq.com
 DOMAIN-SUFFIX, gdt.qq.com
 DOMAIN-SUFFIX, mi.gdt.qq.com
 DOMAIN-SUFFIX, l.qq.com
-DOMAIN, api5-lf.novelfm.com
-DOMAIN, api3-lf.novelfm.com
+# DOMAIN, api5-lf.novelfm.com
+# DOMAIN, api3-lf.novelfm.com
 # DOMAIN, api5-sinfonlinec.novelfm.com
 # DOMAIN-SUFFIX, wosms.cn
 
@@ -244,6 +244,7 @@ DOMAIN-SUFFIX,xpe.cxaerp.com
 DOMAIN-SUFFIX,xtzxmy.com
 DOMAIN-SUFFIX,xyrkl.com
 DOMAIN-SUFFIX,zhuanfakong.com
+
 
 
 
