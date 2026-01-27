@@ -41,7 +41,7 @@ DOMAIN-SUFFIX, mi.gdt.qq.com
 DOMAIN-SUFFIX, l.qq.com
 DOMAIN, api5-lf.novelfm.com
 DOMAIN, api3-lf.novelfm.com
-DOMAIN, api5-sinfonlinec.novelfm.com
+# DOMAIN, api5-sinfonlinec.novelfm.com
 # DOMAIN-SUFFIX, wosms.cn
 
 
@@ -244,6 +244,7 @@ DOMAIN-SUFFIX,xpe.cxaerp.com
 DOMAIN-SUFFIX,xtzxmy.com
 DOMAIN-SUFFIX,xyrkl.com
 DOMAIN-SUFFIX,zhuanfakong.com
+
 
 
 
