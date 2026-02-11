@@ -1,18 +1,28 @@
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,android.googleapis.com
-DOMAIN-SUFFIX,gemini-pa.googleapis.com
-DOMAIN-SUFFIX,palm.googleapis.com
-DOMAIN-SUFFIX,pa.googleapis.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN-SUFFIX,aistudio-pa.clients6.google.com
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,ai.google
-DOMAIN-SUFFIX,*.bard.google
+# Gemini 核心网页
+DOMAIN,gemini.google.com
+DOMAIN,aistudio.google.com
+DOMAIN,ai.google
 DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,*.bard.google
+
+# Meta 核心网页
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,metademolab.com
-DOMAIN-SUFFIX,googleusercontent.com
+
+# Gemini 专属 API 接口
+DOMAIN-SUFFIX,gemini-pa.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,alkalimina-pa.clients6.google.com
+DOMAIN-SUFFIX,aistudio-pa.clients6.google.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+
+# 关键：统一登录出口，防止 IP 不一致报错
+DOMAIN,accounts.google.com
+
+# 其它可能得域名
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+DOMAIN-SUFFIX,android.googleapis.com
+DOMAIN-SUFFIX,palm.googleapis.com
+DOMAIN-SUFFIX,pa.googleapis.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,googleusercontent.com
