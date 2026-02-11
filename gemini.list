@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 
 # 关键：统一登录出口，防止 IP 不一致报错
 DOMAIN,accounts.google.com
+DOMAIN,safebrowsing.google.com
 
 # 其它可能得域名
 DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
@@ -26,3 +27,4 @@ DOMAIN-SUFFIX,palm.googleapis.com
 DOMAIN-SUFFIX,pa.googleapis.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,googleusercontent.com
+
