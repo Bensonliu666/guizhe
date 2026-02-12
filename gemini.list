@@ -29,4 +29,10 @@ DOMAIN-SUFFIX,pa.googleapis.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,googleusercontent.com
 
+# 补全漏掉的 Google AI 引导接口
+DOMAIN,optimizationguide-pa.googleapis.com
+DOMAIN,clientservices.googleapis.com
+DOMAIN,oauthaccountmanager.googleapis.com
+
+
 
