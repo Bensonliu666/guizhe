@@ -15,6 +15,16 @@ DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,alkalimina-pa.clients6.google.com
 DOMAIN-SUFFIX,aistudio-pa.clients6.google.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,clients6.google.com
+
+# --- 必须统一出口的 Google 基础域名 ---
+DOMAIN,www.google.com
+DOMAIN,google.com
+DOMAIN,www.gstatic.com
+DOMAIN,gstatic.com
+DOMAIN,fonts.googleapis.com
+DOMAIN,fonts.gstatic.com
 
 # 关键：统一登录出口，防止 IP 不一致报错
 DOMAIN,accounts.google.com
@@ -33,6 +43,7 @@ DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN,optimizationguide-pa.googleapis.com
 DOMAIN,clientservices.googleapis.com
 DOMAIN,oauthaccountmanager.googleapis.com
+
 
 
 
