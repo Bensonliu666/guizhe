@@ -136,7 +136,7 @@ DOMAIN-SUFFIX,s2.pstatp.com
 DOMAIN-SUFFIX,s3.pstatp.com
 DOMAIN-SUFFIX,a3.pstatp.com
 DOMAIN-SUFFIX,a3.bytecdn.cn
-;DOMAIN-SUFFIX,ichannel.snssdk.com
+DOMAIN-SUFFIX,ichannel.snssdk.com
 DOMAIN-SUFFIX,ad.toutiao.com
 DOMAIN-SUFFIX,dsp.toutiao.com
 
@@ -155,8 +155,8 @@ DOMAIN-SUFFIX,keplerapi.jd.com
 DOMAIN-SUFFIX,mapi.m.jd.com
 
 # 快手
-;DOMAIN-SUFFIX,yximgs.com
-;DOMAIN-SUFFIX,js-ad.a.yximgs.com
+# DOMAIN-SUFFIX,yximgs.com
+DOMAIN-SUFFIX,js-ad.a.yximgs.com
 DOMAIN-SUFFIX,e.kuaishou.com
 DOMAIN-SUFFIX,cm.downloader.commercial.kuaishou.com
 DOMAIN-SUFFIX,cm.ad.gifshow.com
