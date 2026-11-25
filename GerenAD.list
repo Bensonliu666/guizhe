@@ -1,4 +1,3 @@
-# DOMAIN-KEYWORD（域名关键词，模糊）DOMAIN-SUFFIX（域名后缀，精准）
 # 个人编辑广告
 DOMAIN-SUFFIX,adsmind.gdtimg.com
 DOMAIN-SUFFIX,gdtimg.com
@@ -8,8 +7,6 @@ DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,adse.ximalaya.com
 DOMAIN-SUFFIX,adbehavior.ximalaya.com
 DOMAIN-SUFFIX,adwbs.ximalaya.com
-DOMAIN-SUFFIX,ad.test.ximalaya.com
-DOMAIN-SUFFIX,adse.test.ximalaya.com
 
 # 新增字节跳动的广告规则含旗下所有APP（番茄畅听，番茄小说，红果短剧，即梦，扣子，豆包，飞书，，剪映，抖音，今日头条，西瓜视频，懂车帝，皮皮虾，醒图）
 # 穿山甲广告 SDK这是番茄畅听最主要的广告来源（开屏广告、听书中间的插播广告）。作用： 彻底切断穿山甲广告插件与服务器的联系。
@@ -17,39 +14,24 @@ DOMAIN-KEYWORD,pangle
 DOMAIN-KEYWORD,pangolin
 DOMAIN-SUFFIX,pangle.io
 DOMAIN-SUFFIX,pgetp.com
-DOMAIN-KEYWORD, pglstatp-toutiao
-DOMAIN-SUFFIX, pglite.com
-DOMAIN-SUFFIX, pglstatp.com
+DOMAIN-KEYWORD,pglstatp-toutiao
+DOMAIN-SUFFIX,pglite.com
+DOMAIN-SUFFIX,pglstatp.com
 
 # 字节跳动广告相关 (穿山甲)
-DOMAIN-KEYWORD, ad-sign
-DOMAIN-KEYWORD, ads.pangle
-DOMAIN-SUFFIX, ad.advertising.com
-DOMAIN-SUFFIX, zijieapi.com
-DOMAIN-SUFFIX, volces.com
+DOMAIN-KEYWORD,ad-sign
+DOMAIN-KEYWORD,ads.pangle
 
 # 番茄畅听个人抓取日志
 # DOMAIN-SUFFIX,novelfm.com  # 注意：由于正文在 novelfmvod.com，拦截 novelfm.com 通常是安全的
-DOMAIN-SUFFIX,byteimg.com  # 广告签名和素材
-DOMAIN-SUFFIX,ecombdimg.com  # 拦截电商和推广内容
-DOMAIN-SUFFIX, yangliq.com
-DOMAIN-SUFFIX, pglstatp.com
-DOMAIN-SUFFIX, pglite.com
-DOMAIN-SUFFIX, e.qq.com
-DOMAIN-SUFFIX, gdt.qq.com
-DOMAIN-SUFFIX, mi.gdt.qq.com
-DOMAIN-SUFFIX, l.qq.com
-DOMAIN, api5-lf.novelfm.com
-DOMAIN, api3-lf.novelfm.com
-DOMAIN, api5-sinfonlinec.novelfm.com
-DOMAIN-SUFFIX, wosms.cn
 
-
-
-
-# 静态资源与图片 (Static Assets)部分存储广告素材的 CDN 地址。
-DOMAIN-SUFFIX,byteimg.com  # （部分广告图片）
-DOMAIN-SUFFIX,toutiaocloud.com
+DOMAIN-SUFFIX,ecombdimg.com
+DOMAIN-SUFFIX,yangliq.com
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,mi.gdt.qq.com
+DOMAIN-SUFFIX,l.qq.com
+DOMAIN-SUFFIX,wosms.cn
 
 # 字节跳动几乎所有 App（抖音、头条、番茄）共用的广告分发域名。作用： 拦截静态广告图片、视频素材的加载。
 DOMAIN-SUFFIX,ads.pstatp.com
@@ -63,21 +45,11 @@ DOMAIN-SUFFIX,log.snssdk.com
 DOMAIN-SUFFIX,analytics.snssdk.com
 DOMAIN-SUFFIX,mon.snssdk.com
 
-
 # 广告联盟
 DOMAIN-SUFFIX,miaozhen.com
-DOMAIN-SUFFIX,ad-sign.byteimg.com
 DOMAIN-SUFFIX,tos.pstatp.com
-DOMAIN-SUFFIX,asiad.byteactivity
-DOMAIN-SUFFIX,pangolin-sdk-toutiao
-DOMAIN-SUFFIX,pglstatp-toutiao
 DOMAIN-SUFFIX,pangolin.snssdk.com
 DOMAIN-SUFFIX,video-cn.snssdk.com
-DOMAIN-SUFFIX,getui.com
-DOMAIN-SUFFIX,getui.net
-DOMAIN-SUFFIX,gepush.com
-DOMAIN-SUFFIX,igexin.com
-DOMAIN-SUFFIX,log.aliyuncs.com
 DOMAIN-SUFFIX,zlsdk.1rtb.net
 
 # 58同城
@@ -91,7 +63,6 @@ DOMAIN-SUFFIX,tracklog.58.com
 
 # 哔哩哔哩
 DOMAIN-SUFFIX,mall.bilibili.com
-DOMAIN-SUFFIX,passport.bilibili.com
 DOMAIN-SUFFIX,api.sobot.com
 DOMAIN-SUFFIX,cm.ad.bilibili.com
 DOMAIN-SUFFIX,cm.adcommon.bilibili.com
@@ -100,46 +71,27 @@ DOMAIN-SUFFIX,cm.track.biligame.bilibili.com
 
 # 抖音
 DOMAIN-SUFFIX,bds.snssdk.com
-DOMAIN-SUFFIX,p3.pstatp.com
 
 # 高德
-DOMAIN-SUFFIX,restapi.amap.com
 DOMAIN-SUFFIX,adiu.amap.com
-DOMAIN-SUFFIX,aboard.apilocate.amap.com
-DOMAIN-SUFFIX,apiinit.amap.com
 DOMAIN-SUFFIX,icloud-amap.com
 DOMAIN-SUFFIX,logs.amap.com
 DOMAIN-SUFFIX,dualstack-logs.amap.com
-DOMAIN-SUFFIX,logs.amap.com
-DOMAIN-SUFFIX,optimus-ads.amap.com
-DOMAIN-SUFFIX,page.amap.com
 DOMAIN-SUFFIX,optimus-ads.amap.com
 DOMAIN-SUFFIX,optimus-ads.amap.com.w.alikunlun.com
 DOMAIN-SUFFIX,shouji.sougou.com
 DOMAIN-SUFFIX,u51.me
-DOMAIN-SUFFIX,u51.me
-
 
 # 今日头条
 DOMAIN-SUFFIX,dm.toutiao.com
-DOMAIN-SUFFIX,ad.toutiao.com
 DOMAIN-SUFFIX,clk.gentags.net
-DOMAIN-SUFFIX,dm.toutiao.com
 DOMAIN-SUFFIX,dm.pstatp.com
 DOMAIN-SUFFIX,dm.bytedance.com
 DOMAIN-SUFFIX,uop.umeng.com
-DOMAIN-SUFFIX,m.suning.com
 DOMAIN-SUFFIX,adshare.toutiao.com
 DOMAIN-SUFFIX,tunion-api.m.taobao.com
-DOMAIN-SUFFIX,s1.pstatp.com
-DOMAIN-SUFFIX,s2.pstatp.com
-DOMAIN-SUFFIX,s3.pstatp.com
-DOMAIN-SUFFIX,a3.pstatp.com
-DOMAIN-SUFFIX,a3.bytecdn.cn
 DOMAIN-SUFFIX,ichannel.snssdk.com
-DOMAIN-SUFFIX,ad.toutiao.com
 DOMAIN-SUFFIX,dsp.toutiao.com
-
 
 # 京东
 DOMAIN-SUFFIX,jzt.jd.com
@@ -148,26 +100,18 @@ DOMAIN-SUFFIX,du.jd.com
 DOMAIN-SUFFIX,c-nfa.jd.com
 DOMAIN-SUFFIX,cm.jd.com
 DOMAIN-SUFFIX,jddebug.com
-DOMAIN-SUFFIX,policy.jd.com
-DOMAIN-SUFFIX,kepler.jd.com
 DOMAIN-SUFFIX,bdsp.x.jd.com
-DOMAIN-SUFFIX,keplerapi.jd.com
-DOMAIN-SUFFIX,mapi.m.jd.com
 
 # 快手
-# DOMAIN-SUFFIX,yximgs.com
 DOMAIN-SUFFIX,js-ad.a.yximgs.com
 DOMAIN-SUFFIX,e.kuaishou.com
 DOMAIN-SUFFIX,cm.downloader.commercial.kuaishou.com
 DOMAIN-SUFFIX,cm.ad.gifshow.com
 DOMAIN-SUFFIX,cm.kwad.com
 
-
 # 美团
 DOMAIN-SUFFIX,flowplus.meituan.net
 DOMAIN-SUFFIX,analytics.meituan.net
-DOMAIN-SUFFIX,meituan.xn
-DOMAIN-SUFFIX,meituan.yoga
 DOMAIN-SUFFIX,meituangov.cn
 DOMAIN-SUFFIX,report.meituan.com
 DOMAIN-SUFFIX,wmlog.meituan.com
@@ -176,31 +120,21 @@ DOMAIN-SUFFIX,mads.meituan.com
 DOMAIN-SUFFIX,dreport.meituan.net
 DOMAIN-SUFFIX,d.meituan.net
 
-
 # 七猫小说
 DOMAIN-SUFFIX,cdn-new-ad.wtzw.com
 DOMAIN-SUFFIX,a-remad.qm989.com
 DOMAIN-SUFFIX,mobads.baidu.com
-DOMAIN-SUFFIX,gdt.qq.com
-DOMAIN-SUFFIX,qzs.
 DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com
-DOMAIN-SUFFIX,pgdt.u
 
 # 淘宝
 DOMAIN-SUFFIX,apoll.m.taobao.com
 DOMAIN-SUFFIX,h-adashx.ut.taobao.com
-DOMAIN-SUFFIX,w.m.taobao.com
-DOMAIN-SUFFIX,acs4baichuan.m.taobao.com
 DOMAIN-SUFFIX,adashbc.ut.taobao.com
 DOMAIN-SUFFIX,adash-c.ut.taobao.com
 DOMAIN-SUFFIX,adashxgc.ut.taobao.com
 DOMAIN-SUFFIX,adashx4yt.m.taobao.com
-DOMAIN-SUFFIX,tunion-api.m.taobao.com
 DOMAIN-SUFFIX,m-adash.m.taobao.com
 DOMAIN-SUFFIX,adashbc.m.taobao.com
-
-
-
 
 # Book-app起点掌阅书旗宜搜
 DOMAIN-SUFFIX,ad.zhangyue.com
@@ -246,10 +180,44 @@ DOMAIN-SUFFIX,xyrkl.com
 DOMAIN-SUFFIX,zhuanfakong.com
 
 
+# 2026-11-25 补充：国外网页广告 / 追踪（Chrome 上网、国外设计站主要缺口）
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,criteo.com
+DOMAIN-SUFFIX,taboola.com
+DOMAIN-SUFFIX,outbrain.com
+DOMAIN-SUFFIX,adsrvr.org
+DOMAIN-SUFFIX,pubmatic.com
+DOMAIN-SUFFIX,rubiconproject.com
+DOMAIN-SUFFIX,appnexus.com
+DOMAIN-SUFFIX,moatads.com
+DOMAIN-SUFFIX,scorecardresearch.com
+DOMAIN-SUFFIX,casalemedia.com
+DOMAIN-SUFFIX,33across.com
+DOMAIN-SUFFIX,smartadserver.com
+DOMAIN-SUFFIX,media.net
+DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,ads.yahoo.com
+DOMAIN-SUFFIX,ads.linkedin.com
 
-
-
-
-
-
+# 2026-11-25 补充：国内联盟 / 电商 / 音乐 / 阅读（均 DNS 实测存在）
+DOMAIN-SUFFIX,pos.baidu.com
+DOMAIN-SUFFIX,cpro.baidu.com
+DOMAIN-SUFFIX,tanx.com
+DOMAIN-SUFFIX,alimama.com
+DOMAIN-SUFFIX,ads.taobao.com
+DOMAIN-SUFFIX,ads.pinduoduo.com
+DOMAIN-SUFFIX,ad.xiaohongshu.com
+DOMAIN-SUFFIX,ads.music.163.com
+DOMAIN-SUFFIX,ad.music.163.com
+DOMAIN-SUFFIX,ad.kugou.com
+DOMAIN-SUFFIX,ad.58.com
+DOMAIN-SUFFIX,ad.ele.me
+DOMAIN-SUFFIX,ad.dianping.com
+DOMAIN-SUFFIX,ad.meituan.com
+DOMAIN-SUFFIX,ad.jjwxc.net
 
